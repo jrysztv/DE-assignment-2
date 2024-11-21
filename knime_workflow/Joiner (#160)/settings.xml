@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="compositionMode" type="xstring" value="MATCH_ALL"/>
+        <config key="matchingCriteria">
+            <config key="0">
+                <entry key="leftTableColumn" type="xstring" value="competition_country"/>
+                <entry key="rightTableColumn" type="xstring" value="competition_country"/>
+            </config>
+            <config key="1">
+                <entry key="leftTableColumn" type="xstring" value="competition_year"/>
+                <entry key="rightTableColumn" type="xstring" value="competition_year"/>
+            </config>
+        </config>
+        <entry key="dataCellComparisonMode" type="xstring" value="STRING"/>
+        <entry key="includeMatchesInOutput" type="xboolean" value="true"/>
+        <entry key="includeLeftUnmatchedInOutput" type="xboolean" value="true"/>
+        <entry key="includeRightUnmatchedInOutput" type="xboolean" value="false"/>
+        <config key="leftColumnSelectionConfig">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="105"/>
+                <entry key="0" type="xstring" value="competition_year"/>
+                <entry key="1" type="xstring" value="competition_edition"/>
+                <entry key="2" type="xstring" value="competition_country"/>
+                <entry key="3" type="xstring" value="individual_id"/>
+                <entry key="4" type="xstring" value="individual_results_year"/>
+                <entry key="5" type="xstring" value="individual_results_country"/>
+                <entry key="6" type="xstring" value="competition_city"/>
+                <entry key="7" type="xstring" value="competition_countries"/>
+                <entry key="8" type="xstring" value="competition_all_contestants"/>
+                <entry key="9" type="xstring" value="competition_male_contestants"/>
+                <entry key="10" type="xstring" value="competition_female_contestants"/>
+                <entry key="11" type="xstring" value="competition_start_date"/>
+                <entry key="12" type="xstring" value="competition_end_date"/>
+                <entry key="13" type="xstring" value="country_results_team_size_all"/>
+                <entry key="14" type="xstring" value="country_results_team_size_male"/>
+                <entry key="15" type="xstring" value="country_results_team_size_female"/>
+                <entry key="16" type="xstring" value="country_results_p1"/>
+                <entry key="17" type="xstring" value="country_results_p2"/>
+                <entry key="18" type="xstring" value="country_results_p3"/>
+                <entry key="19" type="xstring" value="country_results_p4"/>
+                <entry key="20" type="xstring" value="country_results_p5"/>
+                <entry key="21" type="xstring" value="country_results_p6"/>
+                <entry key="22" type="xstring" value="country_results_p7"/>
+                <entry key="23" type="xstring" value="country_results_awards_gold"/>
+                <entry key="24" type="xstring" value="country_results_awards_silver"/>
+                <entry key="25" type="xstring" value="country_results_awards_bronze"/>
+                <entry key="26" type="xstring" value="country_results_awards_honorable_mentions"/>
+                <entry key="27" type="xstring" value="country_results_leader"/>
+                <entry key="28" type="xstring" value="country_results_deputy_leader"/>
+                <entry key="29" type="xstring" value="country_results_notes"/>
+                <entry key="30" type="xstring" value="individual_results_contestant"/>
+                <entry key="31" type="xstring" value="individual_results_p1"/>
+                <entry key="32" type="xstring" value="individual_results_p2"/>
+                <entry key="33" type="xstring" value="individual_results_p3"/>
+                <entry key="34" type="xstring" value="individual_results_p4"/>
+                <entry key="35" type="xstring" value="individual_results_p5"/>
+                <entry key="36" type="xstring" value="individual_results_p6"/>
+                <entry key="37" type="xstring" value="individual_results_p7"/>
+                <entry key="38" type="xstring" value="individual_results_total"/>
+                <entry key="39" type="xstring" value="individual_results_rank"/>
+                <entry key="40" type="xstring" value="individual_results_award"/>
+                <entry key="41" type="xstring" value="individual_results_notes"/>
+                <entry key="42" type="xstring" value="country_results_year"/>
+                <entry key="43" type="xstring" value="country_results_country"/>
+                <entry key="44" type="xstring" value="awards_average_per_year_capita_10m"/>
+                <entry key="45" type="xstring" value="Barro-Lee: Percentage of population age 15+ with primary schooling. Completed Primary"/>
+                <entry key="46" type="xstring" value="Barro-Lee: Percentage of population age 15+ with primary schooling. Completed Primary (Prior Year)"/>
+                <entry key="47" type="xstring" value="Barro-Lee: Percentage of population age 15+ with secondary schooling. Completed Secondary"/>
+                <entry key="48" type="xstring" value="Barro-Lee: Percentage of population age 15+ with secondary schooling. Completed Secondary (Prior Year)"/>
+                <entry key="49" type="xstring" value="Barro-Lee: Percentage of population age 15+ with tertiary schooling. Completed Tertiary"/>
+                <entry key="50" type="xstring" value="Barro-Lee: Percentage of population age 15+ with tertiary schooling. Completed Tertiary (Prior Year)"/>
+                <entry key="51" type="xstring" value="Population, total"/>
+                <entry key="52" type="xstring" value="Population, total (Prior Year)"/>
+                <entry key="53" type="xstring" value="Adult literacy rate, population 15+ years, both sexes (%)"/>
+                <entry key="54" type="xstring" value="Adult literacy rate, population 15+ years, both sexes (%) (Prior Year)"/>
+                <entry key="55" type="xstring" value="GDP per capita, PPP (current international US Dollar)"/>
+                <entry key="56" type="xstring" value="GDP per capita, PPP (current international US Dollar) (Prior Year)"/>
+                <entry key="57" type="xstring" value="World Bank: Total public education expenditure, % of government spending"/>
+                <entry key="58" type="xstring" value="World Bank: Total public education expenditure, % of government spending (Prior Year)"/>
+                <entry key="59" type="xstring" value="Percentage of graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, both sexes (%)"/>
+                <entry key="60" type="xstring" value="Percentage of graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, both sexes (%) (Prior Year)"/>
+                <entry key="61" type="xstring" value="PIAAC: Adults by numeracy proficiency level (%). Level 4"/>
+                <entry key="62" type="xstring" value="PIAAC: Adults by numeracy proficiency level (%). Level 4 (Prior Year)"/>
+                <entry key="63" type="xstring" value="PIAAC: Adults by numeracy proficiency level (%). Level 5"/>
+                <entry key="64" type="xstring" value="PIAAC: Adults by numeracy proficiency level (%). Level 5 (Prior Year)"/>
+                <entry key="65" type="xstring" value="PIAAC: Adults by proficiency level in problem solving in technology-rich environments (%). Level 3"/>
+                <entry key="66" type="xstring" value="PIAAC: Adults by proficiency level in problem solving in technology-rich environments (%). Level 3 (Prior Year)"/>
+                <entry key="67" type="xstring" value="PIAAC: Young adults by numeracy proficiency level (%). Level 4 &amp; 5"/>
+                <entry key="68" type="xstring" value="PIAAC: Young adults by numeracy proficiency level (%). Level 4 &amp; 5 (Prior Year)"/>
+                <entry key="69" type="xstring" value="Barro-Lee: Percentage of population age 15+ with primary schooling. Completed Primary (10-year Moving Average)"/>
+                <entry key="70" type="xstring" value="Barro-Lee: Percentage of population age 15+ with secondary schooling. Completed Secondary (10-year Moving Average)"/>
+                <entry key="71" type="xstring" value="Barro-Lee: Percentage of population age 15+ with tertiary schooling. Completed Tertiary (10-year Moving Average)"/>
+                <entry key="72" type="xstring" value="Population, total (10-year Moving Average)"/>
+                <entry key="73" type="xstring" value="Adult literacy rate, population 15+ years, both sexes (%) (10-year Moving Average)"/>
+                <entry key="74" type="xstring" value="GDP per capita, PPP (current international US Dollar) (10-year Moving Average)"/>
+                <entry key="75" type="xstring" value="World Bank: Total public education expenditure, % of government spending (10-year Moving Average)"/>
+                <entry key="76" type="xstring" value="Percentage of graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, both sexes (%) (10-year Moving Average)"/>
+                <entry key="77" type="xstring" value="PIAAC: Adults by numeracy proficiency level (%). Level 4 (10-year Moving Average)"/>
+                <entry key="78" type="xstring" value="PIAAC: Adults by numeracy proficiency level (%). Level 5 (10-year Moving Average)"/>
+                <entry key="79" type="xstring" value="PIAAC: Adults by proficiency level in problem solving in technology-rich environments (%). Level 3 (10-year Moving Average)"/>
+                <entry key="80" type="xstring" value="PIAAC: Young adults by numeracy proficiency level (%). Level 4 &amp; 5 (10-year Moving Average)"/>
+                <entry key="81" type="xstring" value="Barro-Lee: Percentage of population age 15+ with primary schooling. Completed Primary (CumMean/year 1959-&gt;2024)"/>
+                <entry key="82" type="xstring" value="Barro-Lee: Percentage of population age 15+ with secondary schooling. Completed Secondary (CumMean/year 1959-&gt;2024)"/>
+                <entry key="83" type="xstring" value="Barro-Lee: Percentage of population age 15+ with tertiary schooling. Completed Tertiary (CumMean/year 1959-&gt;2024)"/>
+                <entry key="84" type="xstring" value="Population, total (CumMean/year 1959-&gt;2024)"/>
+                <entry key="85" type="xstring" value="Adult literacy rate, population 15+ years, both sexes (%) (CumMean/year 1959-&gt;2024)"/>
+                <entry key="86" type="xstring" value="GDP per capita, PPP (current international US Dollar) (CumMean/year 1959-&gt;2024)"/>
+                <entry key="87" type="xstring" value="World Bank: Total public education expenditure, % of government spending (CumMean/year 1959-&gt;2024)"/>
+                <entry key="88" type="xstring" value="Percentage of graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, both sexes (%) (CumMean/year 1959-&gt;2024)"/>
+                <entry key="89" type="xstring" value="PIAAC: Adults by numeracy proficiency level (%). Level 4 (CumMean/year 1959-&gt;2024)"/>
+                <entry key="90" type="xstring" value="PIAAC: Adults by numeracy proficiency level (%). Level 5 (CumMean/year 1959-&gt;2024)"/>
+                <entry key="91" type="xstring" value="PIAAC: Adults by proficiency level in problem solving in technology-rich environments (%). Level 3 (CumMean/year 1959-&gt;2024)"/>
+                <entry key="92" type="xstring" value="PIAAC: Young adults by numeracy proficiency level (%). Level 4 &amp; 5 (CumMean/year 1959-&gt;2024)"/>
+                <entry key="93" type="xstring" value="Barro-Lee: Percentage of population age 15+ with primary schooling. Completed Primary (CumMean/year 2024-&gt;1959)"/>
+                <entry key="94" type="xstring" value="Barro-Lee: Percentage of population age 15+ with secondary schooling. Completed Secondary (CumMean/year 2024-&gt;1959)"/>
+                <entry key="95" type="xstring" value="Barro-Lee: Percentage of population age 15+ with tertiary schooling. Completed Tertiary (CumMean/year 2024-&gt;1959)"/>
+                <entry key="96" type="xstring" value="Population, total (CumMean/year 2024-&gt;1959)"/>
+                <entry key="97" type="xstring" value="Adult literacy rate, population 15+ years, both sexes (%) (CumMean/year 2024-&gt;1959)"/>
+                <entry key="98" type="xstring" value="GDP per capita, PPP (current international US Dollar) (CumMean/year 2024-&gt;1959)"/>
+                <entry key="99" type="xstring" value="World Bank: Total public education expenditure, % of government spending (CumMean/year 2024-&gt;1959)"/>
+                <entry key="100" type="xstring" value="Percentage of graduates from tertiary education graduating from Natural Sciences, Mathematics and Statistics programmes, both sexes (%) (CumMean/year 2024-&gt;1959)"/>
+                <entry key="101" type="xstring" value="PIAAC: Adults by numeracy proficiency level (%). Level 4 (CumMean/year 2024-&gt;1959)"/>
+                <entry key="102" type="xstring" value="PIAAC: Adults by numeracy proficiency level (%). Level 5 (CumMean/year 2024-&gt;1959)"/>
+                <entry key="103" type="xstring" value="PIAAC: Adults by proficiency level in problem solving in technology-rich environments (%). Level 3 (CumMean/year 2024-&gt;1959)"/>
+                <entry key="104" type="xstring" value="PIAAC: Young adults by numeracy proficiency level (%). Level 4 &amp; 5 (CumMean/year 2024-&gt;1959)"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="false"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist"/>
+            </config>
+        </config>
+        <config key="rightColumnSelectionConfig">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="6"/>
+                <entry key="0" type="xstring" value="competition_noaa_state"/>
+                <entry key="1" type="xstring" value="competition_noaa_station"/>
+                <entry key="2" type="xstring" value="competition_distance_from_weather_station"/>
+                <entry key="3" type="xstring" value="competition_daily_mean_precipitation"/>
+                <entry key="4" type="xstring" value="competition_daily_mean_minimum_temperature"/>
+                <entry key="5" type="xstring" value="competition_daily_mean_maximum_temperature"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="11"/>
+                <entry key="0" type="xstring" value="competition_year"/>
+                <entry key="1" type="xstring" value="competition_country"/>
+                <entry key="2" type="xstring" value="competition_city"/>
+                <entry key="3" type="xstring" value="competition_start_date"/>
+                <entry key="4" type="xstring" value="competition_end_date"/>
+                <entry key="5" type="xstring" value="competition_alpha-2"/>
+                <entry key="6" type="xstring" value="competition_city_name"/>
+                <entry key="7" type="xstring" value="competition_city_lat"/>
+                <entry key="8" type="xstring" value="competition_city_lon"/>
+                <entry key="9" type="xstring" value="competition_city_country_alpha-2"/>
+                <entry key="10" type="xstring" value="competition_noaa_id"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="false"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist"/>
+            </config>
+        </config>
+        <entry key="mergeJoinColumns" type="xboolean" value="false"/>
+        <entry key="duplicateHandling" type="xstring" value="APPEND_SUFFIX"/>
+        <entry key="suffix" type="xstring" value=" (Right)"/>
+        <entry key="outputUnmatchedRowsToSeparatePorts" type="xboolean" value="false"/>
+        <entry key="rowKeyFactory" type="xstring" value="CONCATENATE"/>
+        <entry key="rowKeySeparator" type="xstring" value="_"/>
+        <entry key="outputRowOrder" type="xstring" value="ARBITRARY"/>
+        <entry key="maxOpenFiles" type="xint" value="200"/>
+        <entry key="enableHiliting" type="xboolean" value="false"/>
+    </config>
+    <config key="variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"/>
+    <entry key="node-name" type="xstring" value="Joiner"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.3.v202410291553"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.3.v202410301420"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Joiner"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 21709, Cols: 111"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
+        </config>
+        <config key="port_3">
+            <entry key="index" type="xint" value="3"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_3"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="2da8fee2-42af-481e-ba67-948cf5ef4045"/>
+    </config>
+</config>

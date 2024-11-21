@@ -154,9 +154,39 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# Persist store for requests
+data/persist_store/
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+### KNIME files
+.knimeLock
+.project
+.savedWithData
+workflowset.meta
+
+## KNIME directories containing node data
+internal/
+port_*/
+.metadata/
+internalTables/
+
+## KNIME directories containing overhead data
+./Example\ Workflows/
+
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+Example Workflows

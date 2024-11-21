@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="sql_statement" type="xstring" value="SELECT%%00010    t.year AS competition_year,%%00010    t.edition AS competition_edition,%%00010    t.country AS competition_country,%%00010    ir.id AS individual_id,%%00010    ir.year AS individual_results_year,%%00010    ir.country AS individual_results_country,%%00010    t.city AS competition_city,%%00010    t.countries AS competition_countries,%%00010    t.all_contestant AS competition_all_contestants,%%00010    t.male_contestant AS competition_male_contestants,%%00010    t.female_contestant AS competition_female_contestants,%%00010    t.start_date AS competition_start_date,%%00010    t.end_date AS competition_end_date,%%00010    cr.team_size_all AS country_results_team_size_all,%%00010    cr.team_size_male AS country_results_team_size_male,%%00010    cr.team_size_female AS country_results_team_size_female,%%00010    cr.p1 AS country_results_p1,%%00010    cr.p2 AS country_results_p2,%%00010    cr.p3 AS country_results_p3,%%00010    cr.p4 AS country_results_p4,%%00010    cr.p5 AS country_results_p5,%%00010    cr.p6 AS country_results_p6,%%00010    cr.p7 AS country_results_p7,%%00010    cr.awards_gold AS country_results_awards_gold,%%00010    cr.awards_silver AS country_results_awards_silver,%%00010    cr.awards_bronze AS country_results_awards_bronze,%%00010    cr.awards_honorable_mentions AS country_results_awards_honorable_mentions,%%00010    cr.leader AS country_results_leader,%%00010    cr.deputy_leader AS country_results_deputy_leader,%%00010    cr.notes AS country_results_notes,%%00010    ir.contestant AS individual_results_contestant,%%00010    ir.p1 AS individual_results_p1,%%00010    ir.p2 AS individual_results_p2,%%00010    ir.p3 AS individual_results_p3,%%00010    ir.p4 AS individual_results_p4,%%00010    ir.p5 AS individual_results_p5,%%00010    ir.p6 AS individual_results_p6,%%00010    ir.p7 AS individual_results_p7,%%00010    ir.total AS individual_results_total,%%00010    ir.individual_rank AS individual_results_rank,%%00010    ir.award AS individual_results_award,%%00010    ir.notes AS individual_results_notes,%%00010    cr.year AS country_results_year,%%00010    cr.country AS country_results_country%%00010FROM%%00010    imo.timeline t%%00010    LEFT JOIN imo.country_results cr ON t.year = cr.year%%00010    LEFT JOIN imo.individual_results ir ON t.year = ir.year%%00010    AND cr.country = ir.country;"/>
+        <config key="external_to_knime_mapping_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_dataTypeMapping"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="external_to_knime_mapping"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.database.node.io.reader.query.DBQueryReaderNodeFactory"/>
+    <entry key="node-name" type="xstring" value="DB Query Reader"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME database nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.database.nodes"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409010954"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Database"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.database.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409010954"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="DB Query Reader"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 21709, Cols: 44"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="916e2bfe-714f-424c-a793-444416d43924"/>
+    </config>
+</config>

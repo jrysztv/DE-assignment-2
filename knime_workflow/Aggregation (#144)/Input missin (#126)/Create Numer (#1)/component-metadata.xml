@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2024-11-17T21:00:37.245+01:00</last-modified>
+    <description>This node creates a numeric range based on given parameters.</description>
+    <component-type>Source</component-type>
+    <in-ports/>
+    <out-ports>
+        <port name="Numeric Range">This node creates a new column based on a numeric range.</port>
+    </out-ports>
+</component-metadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2024-11-17T12:24:07.163+01:00</last-modified>
+    <description>This component automatically adds a custom prefix to the headers of all selected columns.</description>
+    <component-type>Manipulator</component-type>
+    <in-ports>
+        <port name=""/>
+    </in-ports>
+    <out-ports>
+        <port name=""/>
+    </out-ports>
+</component-metadata>

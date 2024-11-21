@@ -154,6 +154,9 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# Persist store for requests
+data/persist_store/
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
@@ -174,6 +177,9 @@ port_*/
 .metadata/
 internalTables/
 
+## KNIME directories containing overhead data
+./Example\ Workflows/
+
 # Packages #
 *.7z
 *.dmg
@@ -183,3 +189,4 @@ internalTables/
 *.rar
 *.tar
 *.zip
+Example Workflows

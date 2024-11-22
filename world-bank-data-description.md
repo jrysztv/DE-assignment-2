@@ -1,6 +1,6 @@
-## World Bank Data Description
+# World Bank Data Description
 
-### Dataset Overview
+## Dataset Overview
 
 **Dataset:** World Bank Education Statistics - All Indicators
 
@@ -12,7 +12,7 @@
 
 **Data Characteristics:** the number of observations, missing values and data availability by country or time period varies greatly depending on the indicatior. Refer to the description of the indicator for detailed information.
 
-### Indicators
+## Indicators
 
 * NY.GDP.PCAP.PP.CD
 

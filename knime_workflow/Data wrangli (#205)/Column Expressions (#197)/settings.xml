@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="expressions">
+            <config key="element 0">
+                <entry key="expression" type="xstring" value="ln(column(&quot;Mean(medals_weighted_sum)&quot;))"/>
+                <entry key="outputName" type="xstring" value="ln(weighted total medals)"/>
+                <config key="outputType">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="replaceColumn" type="xboolean" value="false"/>
+                <entry key="isCollection" type="xboolean" value="false"/>
+            </config>
+            <config key="element 1">
+                <entry key="expression" type="xstring" value="ln(column(&quot;Mean(Barro-Lee: Percentage of population age 15+ with secondary schooling. Completed Secondary (10-year Moving Average))&quot;))"/>
+                <entry key="outputName" type="xstring" value="ln(10Y moving avg. % completed secondary)"/>
+                <config key="outputType">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="replaceColumn" type="xboolean" value="false"/>
+                <entry key="isCollection" type="xboolean" value="false"/>
+            </config>
+            <config key="element 2">
+                <entry key="expression" type="xstring" value="ln(column(&quot;Mean(GDP per capita, PPP (current international US Dollar) (10-year Moving Average))&quot;))"/>
+                <entry key="outputName" type="xstring" value="ln(10Y moving avg. GDP pc. PPP current $)"/>
+                <config key="outputType">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="replaceColumn" type="xboolean" value="false"/>
+                <entry key="isCollection" type="xboolean" value="false"/>
+            </config>
+            <config key="element 3">
+                <entry key="expression" type="xstring" value="ln(column(&quot;Mean(World Bank: Total public education expenditure, % of government spending (10-year Moving Average))&quot;))"/>
+                <entry key="outputName" type="xstring" value="ln(10Y moving avg. publ. educ. exp. % of total govt. exp.)"/>
+                <config key="outputType">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="replaceColumn" type="xboolean" value="false"/>
+                <entry key="isCollection" type="xboolean" value="false"/>
+            </config>
+            <config key="element 4">
+                <entry key="expression" type="xstring" value="ln(column(&quot;Mean(PIAAC: Young adults by numeracy proficiency level (%). Level 4 &amp; 5 (10-year Moving Average))&quot;))"/>
+                <entry key="outputName" type="xstring" value="ln(10Y moving avg. numeracy prof. lev. 4-5 %)"/>
+                <config key="outputType">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="replaceColumn" type="xboolean" value="false"/>
+                <entry key="isCollection" type="xboolean" value="false"/>
+            </config>
+        </config>
+        <entry key="count" type="xint" value="5"/>
+        <entry key="failOnInvalidAccess" type="xboolean" value="true"/>
+        <entry key="failOnScriptError" type="xboolean" value="false"/>
+        <entry key="multiRowAccessWindowSize" type="xint" value="0"/>
+        <entry key="multiRowAccessReturnFirstLastWhenOutOfBounds" type="xboolean" value="true"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.expressions.base.node.formulas.FormulasNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Expressions"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Expression Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.expressions.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.0.v202405071532"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Column Expressions (Labs)"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.expressions.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.0.v202406200655"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Expressions"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 3783, Cols: 12"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="61284979-344b-4ab9-90ff-f0000383e2f5"/>
+    </config>
+</config>

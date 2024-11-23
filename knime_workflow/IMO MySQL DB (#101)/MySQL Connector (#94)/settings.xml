@@ -929,6 +929,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="DB Connection no longer available. Go to advanced settings to enable connection restoration."/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.database.extension.mysql.node.connector.MySQLDBConnectorNodeFactory"/>
     <entry key="node-name" type="xstring" value="MySQL Connector"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME database extensions"/>
@@ -948,7 +952,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.database.port.DBSessionPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.database.port.DBSessionPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="MySQL 7e46de63-26d6-47c2-a3cd-f5e6c1635fcf"/>
+            <entry key="port_object_summary" type="xstring" value="MySQL a9d3799f-7f04-47b3-b560-bc70b3e7dbe4"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -956,6 +960,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="e87030ed-bc17-434e-b88b-d9d2312b0dd6"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>

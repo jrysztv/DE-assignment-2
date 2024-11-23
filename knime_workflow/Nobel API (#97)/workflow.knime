@@ -11,17 +11,17 @@
         <entry key="lastEdited-when" type="xstring" isnull="true" value=""/>
     </config>
     <config key="nodeAnnotation">
-        <entry key="text" type="xstring" value="Request and transform JSON response"/>
+        <entry key="text" type="xstring" value="Request and transform %%00013%%00010JSON response"/>
         <entry key="contentType" type="xstring" value="text/plain"/>
         <entry key="bgcolor" type="xint" value="16777215"/>
-        <entry key="x-coordinate" type="xint" value="-1938"/>
-        <entry key="y-coordinate" type="xint" value="-397"/>
-        <entry key="width" type="xint" value="218"/>
-        <entry key="height" type="xint" value="15"/>
+        <entry key="x-coordinate" type="xint" value="-1965"/>
+        <entry key="y-coordinate" type="xint" value="-274"/>
+        <entry key="width" type="xint" value="135"/>
+        <entry key="height" type="xint" value="30"/>
         <entry key="alignment" type="xstring" value="CENTER"/>
         <entry key="borderSize" type="xint" value="0"/>
-        <entry key="borderColor" type="xint" value="0"/>
-        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
         <entry key="annotation-version" type="xint" value="20230412"/>
         <config key="styles"/>
     </config>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2024-11-22T23:22:51.414+01:00</last-modified>
+    <description>This node takes a input data table plus a regression model of one target column against another value column and prepares a scatter plot joining the original data and a representation of the regression model output. 
+
+Since currently adding regression lines to scatter plots is not supported, the regression line is simulated with a sequence of dots. User can adjust the number of dots shown on the chart.
+
+Updated Aug 2022, for multiple variables mode
+
+
+NOTES for multiple variables:
+
+Make sure to select the same target variable of the regression model and one of the predictor variables to plot. 
+
+The node will automatically average other predictors variables.
+
+The first value will be used for categorical values (so better not using them in the predictor model).
+
+This component only works with the output PMML models compatible with the Regression Predictor node. That is output ports from Linear or Polynomial Regression Learner nodes.
+
+A big thanks to Paolo Tamagnini (https://www.knime.com/node/21589?)  for great support in making suggestions/fixing this node!</description>
+    <component-type>Visualizer</component-type>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACTElEQVR4nO1azUrEMBAeEbyIBxdU1rM3H8Ob7yJ703fwxURWfBFB0Iu7IK4baCDG/MxkMkma9oPQpp3OzPclaaarADNmaOyG1iu2w9HLs1cBdp4WNewFms8xRLiNXYD3fTt3XDf5nAznG5eDsRL/hvDgoaY/xG42DJ33tXH+ZN2bhAB2n7ycWxUglpdvlMl8WnsJXgE+JzZ5l5PaMPPYAi4vVv6tENfwre2YvWqL4fjDCVgbrin9SbDt4iWIIWLfd52fUYKNAaFRdvXfUpy2CMwUZy+BMQigcAP+XE0etynOWwV1Z2A5bxHsYgfjvCYuA3lkqfZCqC3AK/wndzDcK/JuklJW+1si7Xz5iA+ORDDb5xphK5lPEFIjj/XPLmW5qC2AaVOlHskdcAlphELlrWpHGXN0Bs6JNeQlLzorapfCvtii1Z8vgRICrBwxQwWQr58NKY5TBbsHHHk7hm6uP4CwQSXCWZucLfKZEIcECglte5jwrMu+1nvnD1IEuEt41rQ324rwvAg4+3WKeGZ7oCYrAS4ZCfuikE6safIKEsm5vvGbRe4EzV93JilA6lZXTbDcgVMEcM2Yxwy5oIAR4ANh4/KFreKqFkipIxSyMfuY+r1pATDJcZfQC8QFFgNWAN9/XOZK+iKTHzI4S2AU21wM2Kmn739a/VGTVyjxLdA0qES6Iq+Qurd3gxChBXROXiFEqmqBUgqh0d1Y1ycnQPfrXwFT238Nx9OCeRVDTIDuMRmiPswCAO1zuJfraIPWEhcTYCpt8iLMmLHHL6J04usP706JAAAAAElFTkSuQmCC</icon>
+    <in-ports>
+        <port name="RegressionModel">Output PMML from Linear or Polynomial Regression Learner nodes.</port>
+        <port name="InputTable">Data from test/validation partition.</port>
+    </in-ports>
+    <out-ports>
+        <port name="Image">Visualization saved in static SVG image.</port>
+    </out-ports>
+</component-metadata>

@@ -6,7 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="expression" type="xstring" value="join(&quot;https://www.ncei.noaa.gov/access/services/data/v1?dataTypes=PRCP,TMIN,TMAX&amp;startDate=&quot;,$start_date$,&quot;&amp;endDate=&quot;,$end_date$,&quot;&amp;includeAttributes=true&amp;format=json&amp;dataset=daily-summaries&amp;stations=&quot;,strip($noaa_id$))"/>
+        <entry key="expression" type="xstring" value="join(&quot;https://www.ncei.noaa.gov/access/services/data/v1?dataTypes=PRCP,TMIN,TMAX&amp;startDate=&quot;,$start_date$,&quot;&amp;endDate=&quot;,$end_date$,&quot;&amp;includeAttributes=true&amp;format=json&amp;dataset=daily-summaries&amp;units=metric&amp;stations=&quot;,strip($noaa_id$))"/>
         <entry key="replaced_column" type="xstring" value="weather_data_request_url"/>
         <entry key="append_column" type="xboolean" value="false"/>
         <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
@@ -40,6 +40,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="adaef70a-5804-49b6-b26a-35b567bbc74f"/>
+        <entry key="file_store_id" type="xstring" value="56d691ff-451f-4237-bf11-0506039b1990"/>
     </config>
 </config>

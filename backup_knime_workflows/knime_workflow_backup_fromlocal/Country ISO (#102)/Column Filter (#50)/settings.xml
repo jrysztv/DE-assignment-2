@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="column-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="250"/>
+                <entry key="0" type="xstring" value="body_Arr[0]"/>
+                <entry key="1" type="xstring" value="body_Arr[1]"/>
+                <entry key="2" type="xstring" value="body_Arr[2]"/>
+                <entry key="3" type="xstring" value="body_Arr[3]"/>
+                <entry key="4" type="xstring" value="body_Arr[4]"/>
+                <entry key="5" type="xstring" value="body_Arr[5]"/>
+                <entry key="6" type="xstring" value="body_Arr[6]"/>
+                <entry key="7" type="xstring" value="body_Arr[7]"/>
+                <entry key="8" type="xstring" value="body_Arr[8]"/>
+                <entry key="9" type="xstring" value="body_Arr[9]"/>
+                <entry key="10" type="xstring" value="body_Arr[10]"/>
+                <entry key="11" type="xstring" value="body_Arr[11]"/>
+                <entry key="12" type="xstring" value="body_Arr[12]"/>
+                <entry key="13" type="xstring" value="body_Arr[13]"/>
+                <entry key="14" type="xstring" value="body_Arr[14]"/>
+                <entry key="15" type="xstring" value="body_Arr[15]"/>
+                <entry key="16" type="xstring" value="body_Arr[16]"/>
+                <entry key="17" type="xstring" value="body_Arr[17]"/>
+                <entry key="18" type="xstring" value="body_Arr[18]"/>
+                <entry key="19" type="xstring" value="body_Arr[19]"/>
+                <entry key="20" type="xstring" value="body_Arr[20]"/>
+                <entry key="21" type="xstring" value="body_Arr[21]"/>
+                <entry key="22" type="xstring" value="body_Arr[22]"/>
+                <entry key="23" type="xstring" value="body_Arr[23]"/>
+                <entry key="24" type="xstring" value="body_Arr[24]"/>
+                <entry key="25" type="xstring" value="body_Arr[25]"/>
+                <entry key="26" type="xstring" value="body_Arr[26]"/>
+                <entry key="27" type="xstring" value="body_Arr[27]"/>
+                <entry key="28" type="xstring" value="body_Arr[28]"/>
+                <entry key="29" type="xstring" value="body_Arr[29]"/>
+                <entry key="30" type="xstring" value="body_Arr[30]"/>
+                <entry key="31" type="xstring" value="body_Arr[31]"/>
+                <entry key="32" type="xstring" value="body_Arr[32]"/>
+                <entry key="33" type="xstring" value="body_Arr[33]"/>
+                <entry key="34" type="xstring" value="body_Arr[34]"/>
+                <entry key="35" type="xstring" value="body_Arr[35]"/>
+                <entry key="36" type="xstring" value="body_Arr[36]"/>
+                <entry key="37" type="xstring" value="body_Arr[37]"/>
+                <entry key="38" type="xstring" value="body_Arr[38]"/>
+                <entry key="39" type="xstring" value="body_Arr[39]"/>
+                <entry key="40" type="xstring" value="body_Arr[40]"/>
+                <entry key="41" type="xstring" value="body_Arr[41]"/>
+                <entry key="42" type="xstring" value="body_Arr[42]"/>
+                <entry key="43" type="xstring" value="body_Arr[43]"/>
+                <entry key="44" type="xstring" value="body_Arr[44]"/>
+                <entry key="45" type="xstring" value="body_Arr[45]"/>
+                <entry key="46" type="xstring" value="body_Arr[46]"/>
+                <entry key="47" type="xstring" value="body_Arr[47]"/>
+                <entry key="48" type="xstring" value="body_Arr[48]"/>
+                <entry key="49" type="xstring" value="body_Arr[49]"/>
+                <entry key="50" type="xstring" value="body_Arr[50]"/>
+                <entry key="51" type="xstring" value="body_Arr[51]"/>
+                <entry key="52" type="xstring" value="body_Arr[52]"/>
+                <entry key="53" type="xstring" value="body_Arr[53]"/>
+                <entry key="54" type="xstring" value="body_Arr[54]"/>
+                <entry key="55" type="xstring" value="body_Arr[55]"/>
+                <entry key="56" type="xstring" value="body_Arr[56]"/>
+                <entry key="57" type="xstring" value="body_Arr[57]"/>
+                <entry key="58" type="xstring" value="body_Arr[58]"/>
+                <entry key="59" type="xstring" value="body_Arr[59]"/>
+                <entry key="60" type="xstring" value="body_Arr[60]"/>
+                <entry key="61" type="xstring" value="body_Arr[61]"/>
+                <entry key="62" type="xstring" value="body_Arr[62]"/>
+                <entry key="63" type="xstring" value="body_Arr[63]"/>
+                <entry key="64" type="xstring" value="body_Arr[64]"/>
+                <entry key="65" type="xstring" value="body_Arr[65]"/>
+                <entry key="66" type="xstring" value="body_Arr[66]"/>
+                <entry key="67" type="xstring" value="body_Arr[67]"/>
+                <entry key="68" type="xstring" value="body_Arr[68]"/>
+                <entry key="69" type="xstring" value="body_Arr[69]"/>
+                <entry key="70" type="xstring" value="body_Arr[70]"/>
+                <entry key="71" type="xstring" value="body_Arr[71]"/>
+                <entry key="72" type="xstring" value="body_Arr[72]"/>
+                <entry key="73" type="xstring" value="body_Arr[73]"/>
+                <entry key="74" type="xstring" value="body_Arr[74]"/>
+                <entry key="75" type="xstring" value="body_Arr[75]"/>
+                <entry key="76" type="xstring" value="body_Arr[76]"/>
+                <entry key="77" type="xstring" value="body_Arr[77]"/>
+                <entry key="78" type="xstring" value="body_Arr[78]"/>
+                <entry key="79" type="xstring" value="body_Arr[79]"/>
+                <entry key="80" type="xstring" value="body_Arr[80]"/>
+                <entry key="81" type="xstring" value="body_Arr[81]"/>
+                <entry key="82" type="xstring" value="body_Arr[82]"/>
+                <entry key="83" type="xstring" value="body_Arr[83]"/>
+                <entry key="84" type="xstring" value="body_Arr[84]"/>
+                <entry key="85" type="xstring" value="body_Arr[85]"/>
+                <entry key="86" type="xstring" value="body_Arr[86]"/>
+                <entry key="87" type="xstring" value="body_Arr[87]"/>
+                <entry key="88" type="xstring" value="body_Arr[88]"/>
+                <entry key="89" type="xstring" value="body_Arr[89]"/>
+                <entry key="90" type="xstring" value="body_Arr[90]"/>
+                <entry key="91" type="xstring" value="body_Arr[91]"/>
+                <entry key="92" type="xstring" value="body_Arr[92]"/>
+                <entry key="93" type="xstring" value="body_Arr[93]"/>
+                <entry key="94" type="xstring" value="body_Arr[94]"/>
+                <entry key="95" type="xstring" value="body_Arr[95]"/>
+                <entry key="96" type="xstring" value="body_Arr[96]"/>
+                <entry key="97" type="xstring" value="body_Arr[97]"/>
+                <entry key="98" type="xstring" value="body_Arr[98]"/>
+                <entry key="99" type="xstring" value="body_Arr[99]"/>
+                <entry key="100" type="xstring" value="body_Arr[100]"/>
+                <entry key="101" type="xstring" value="body_Arr[101]"/>
+                <entry key="102" type="xstring" value="body_Arr[102]"/>
+                <entry key="103" type="xstring" value="body_Arr[103]"/>
+                <entry key="104" type="xstring" value="body_Arr[104]"/>
+                <entry key="105" type="xstring" value="body_Arr[105]"/>
+                <entry key="106" type="xstring" value="body_Arr[106]"/>
+                <entry key="107" type="xstring" value="body_Arr[107]"/>
+                <entry key="108" type="xstring" value="body_Arr[108]"/>
+                <entry key="109" type="xstring" value="body_Arr[109]"/>
+                <entry key="110" type="xstring" value="body_Arr[110]"/>
+                <entry key="111" type="xstring" value="body_Arr[111]"/>
+                <entry key="112" type="xstring" value="body_Arr[112]"/>
+                <entry key="113" type="xstring" value="body_Arr[113]"/>
+                <entry key="114" type="xstring" value="body_Arr[114]"/>
+                <entry key="115" type="xstring" value="body_Arr[115]"/>
+                <entry key="116" type="xstring" value="body_Arr[116]"/>
+                <entry key="117" type="xstring" value="body_Arr[117]"/>
+                <entry key="118" type="xstring" value="body_Arr[118]"/>
+                <entry key="119" type="xstring" value="body_Arr[119]"/>
+                <entry key="120" type="xstring" value="body_Arr[120]"/>
+                <entry key="121" type="xstring" value="body_Arr[121]"/>
+                <entry key="122" type="xstring" value="body_Arr[122]"/>
+                <entry key="123" type="xstring" value="body_Arr[123]"/>
+                <entry key="124" type="xstring" value="body_Arr[124]"/>
+                <entry key="125" type="xstring" value="body_Arr[125]"/>
+                <entry key="126" type="xstring" value="body_Arr[126]"/>
+                <entry key="127" type="xstring" value="body_Arr[127]"/>
+                <entry key="128" type="xstring" value="body_Arr[128]"/>
+                <entry key="129" type="xstring" value="body_Arr[129]"/>
+                <entry key="130" type="xstring" value="body_Arr[130]"/>
+                <entry key="131" type="xstring" value="body_Arr[131]"/>
+                <entry key="132" type="xstring" value="body_Arr[132]"/>
+                <entry key="133" type="xstring" value="body_Arr[133]"/>
+                <entry key="134" type="xstring" value="body_Arr[134]"/>
+                <entry key="135" type="xstring" value="body_Arr[135]"/>
+                <entry key="136" type="xstring" value="body_Arr[136]"/>
+                <entry key="137" type="xstring" value="body_Arr[137]"/>
+                <entry key="138" type="xstring" value="body_Arr[138]"/>
+                <entry key="139" type="xstring" value="body_Arr[139]"/>
+                <entry key="140" type="xstring" value="body_Arr[140]"/>
+                <entry key="141" type="xstring" value="body_Arr[141]"/>
+                <entry key="142" type="xstring" value="body_Arr[142]"/>
+                <entry key="143" type="xstring" value="body_Arr[143]"/>
+                <entry key="144" type="xstring" value="body_Arr[144]"/>
+                <entry key="145" type="xstring" value="body_Arr[145]"/>
+                <entry key="146" type="xstring" value="body_Arr[146]"/>
+                <entry key="147" type="xstring" value="body_Arr[147]"/>
+                <entry key="148" type="xstring" value="body_Arr[148]"/>
+                <entry key="149" type="xstring" value="body_Arr[149]"/>
+                <entry key="150" type="xstring" value="body_Arr[150]"/>
+                <entry key="151" type="xstring" value="body_Arr[151]"/>
+                <entry key="152" type="xstring" value="body_Arr[152]"/>
+                <entry key="153" type="xstring" value="body_Arr[153]"/>
+                <entry key="154" type="xstring" value="body_Arr[154]"/>
+                <entry key="155" type="xstring" value="body_Arr[155]"/>
+                <entry key="156" type="xstring" value="body_Arr[156]"/>
+                <entry key="157" type="xstring" value="body_Arr[157]"/>
+                <entry key="158" type="xstring" value="body_Arr[158]"/>
+                <entry key="159" type="xstring" value="body_Arr[159]"/>
+                <entry key="160" type="xstring" value="body_Arr[160]"/>
+                <entry key="161" type="xstring" value="body_Arr[161]"/>
+                <entry key="162" type="xstring" value="body_Arr[162]"/>
+                <entry key="163" type="xstring" value="body_Arr[163]"/>
+                <entry key="164" type="xstring" value="body_Arr[164]"/>
+                <entry key="165" type="xstring" value="body_Arr[165]"/>
+                <entry key="166" type="xstring" value="body_Arr[166]"/>
+                <entry key="167" type="xstring" value="body_Arr[167]"/>
+                <entry key="168" type="xstring" value="body_Arr[168]"/>
+                <entry key="169" type="xstring" value="body_Arr[169]"/>
+                <entry key="170" type="xstring" value="body_Arr[170]"/>
+                <entry key="171" type="xstring" value="body_Arr[171]"/>
+                <entry key="172" type="xstring" value="body_Arr[172]"/>
+                <entry key="173" type="xstring" value="body_Arr[173]"/>
+                <entry key="174" type="xstring" value="body_Arr[174]"/>
+                <entry key="175" type="xstring" value="body_Arr[175]"/>
+                <entry key="176" type="xstring" value="body_Arr[176]"/>
+                <entry key="177" type="xstring" value="body_Arr[177]"/>
+                <entry key="178" type="xstring" value="body_Arr[178]"/>
+                <entry key="179" type="xstring" value="body_Arr[179]"/>
+                <entry key="180" type="xstring" value="body_Arr[180]"/>
+                <entry key="181" type="xstring" value="body_Arr[181]"/>
+                <entry key="182" type="xstring" value="body_Arr[182]"/>
+                <entry key="183" type="xstring" value="body_Arr[183]"/>
+                <entry key="184" type="xstring" value="body_Arr[184]"/>
+                <entry key="185" type="xstring" value="body_Arr[185]"/>
+                <entry key="186" type="xstring" value="body_Arr[186]"/>
+                <entry key="187" type="xstring" value="body_Arr[187]"/>
+                <entry key="188" type="xstring" value="body_Arr[188]"/>
+                <entry key="189" type="xstring" value="body_Arr[189]"/>
+                <entry key="190" type="xstring" value="body_Arr[190]"/>
+                <entry key="191" type="xstring" value="body_Arr[191]"/>
+                <entry key="192" type="xstring" value="body_Arr[192]"/>
+                <entry key="193" type="xstring" value="body_Arr[193]"/>
+                <entry key="194" type="xstring" value="body_Arr[194]"/>
+                <entry key="195" type="xstring" value="body_Arr[195]"/>
+                <entry key="196" type="xstring" value="body_Arr[196]"/>
+                <entry key="197" type="xstring" value="body_Arr[197]"/>
+                <entry key="198" type="xstring" value="body_Arr[198]"/>
+                <entry key="199" type="xstring" value="body_Arr[199]"/>
+                <entry key="200" type="xstring" value="body_Arr[200]"/>
+                <entry key="201" type="xstring" value="body_Arr[201]"/>
+                <entry key="202" type="xstring" value="body_Arr[202]"/>
+                <entry key="203" type="xstring" value="body_Arr[203]"/>
+                <entry key="204" type="xstring" value="body_Arr[204]"/>
+                <entry key="205" type="xstring" value="body_Arr[205]"/>
+                <entry key="206" type="xstring" value="body_Arr[206]"/>
+                <entry key="207" type="xstring" value="body_Arr[207]"/>
+                <entry key="208" type="xstring" value="body_Arr[208]"/>
+                <entry key="209" type="xstring" value="body_Arr[209]"/>
+                <entry key="210" type="xstring" value="body_Arr[210]"/>
+                <entry key="211" type="xstring" value="body_Arr[211]"/>
+                <entry key="212" type="xstring" value="body_Arr[212]"/>
+                <entry key="213" type="xstring" value="body_Arr[213]"/>
+                <entry key="214" type="xstring" value="body_Arr[214]"/>
+                <entry key="215" type="xstring" value="body_Arr[215]"/>
+                <entry key="216" type="xstring" value="body_Arr[216]"/>
+                <entry key="217" type="xstring" value="body_Arr[217]"/>
+                <entry key="218" type="xstring" value="body_Arr[218]"/>
+                <entry key="219" type="xstring" value="body_Arr[219]"/>
+                <entry key="220" type="xstring" value="body_Arr[220]"/>
+                <entry key="221" type="xstring" value="body_Arr[221]"/>
+                <entry key="222" type="xstring" value="body_Arr[222]"/>
+                <entry key="223" type="xstring" value="body_Arr[223]"/>
+                <entry key="224" type="xstring" value="body_Arr[224]"/>
+                <entry key="225" type="xstring" value="body_Arr[225]"/>
+                <entry key="226" type="xstring" value="body_Arr[226]"/>
+                <entry key="227" type="xstring" value="body_Arr[227]"/>
+                <entry key="228" type="xstring" value="body_Arr[228]"/>
+                <entry key="229" type="xstring" value="body_Arr[229]"/>
+                <entry key="230" type="xstring" value="body_Arr[230]"/>
+                <entry key="231" type="xstring" value="body_Arr[231]"/>
+                <entry key="232" type="xstring" value="body_Arr[232]"/>
+                <entry key="233" type="xstring" value="body_Arr[233]"/>
+                <entry key="234" type="xstring" value="body_Arr[234]"/>
+                <entry key="235" type="xstring" value="body_Arr[235]"/>
+                <entry key="236" type="xstring" value="body_Arr[236]"/>
+                <entry key="237" type="xstring" value="body_Arr[237]"/>
+                <entry key="238" type="xstring" value="body_Arr[238]"/>
+                <entry key="239" type="xstring" value="body_Arr[239]"/>
+                <entry key="240" type="xstring" value="body_Arr[240]"/>
+                <entry key="241" type="xstring" value="body_Arr[241]"/>
+                <entry key="242" type="xstring" value="body_Arr[242]"/>
+                <entry key="243" type="xstring" value="body_Arr[243]"/>
+                <entry key="244" type="xstring" value="body_Arr[244]"/>
+                <entry key="245" type="xstring" value="body_Arr[245]"/>
+                <entry key="246" type="xstring" value="body_Arr[246]"/>
+                <entry key="247" type="xstring" value="body_Arr[247]"/>
+                <entry key="248" type="xstring" value="body_Arr[248]"/>
+                <entry key="249" type="xstring" value="body_Arr[249]"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="3"/>
+                <entry key="0" type="xstring" value="Status"/>
+                <entry key="1" type="xstring" value="Content type"/>
+                <entry key="2" type="xstring" value="body"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist"/>
+            </config>
+        </config>
+    </config>
+    <config key="variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Filter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.3.v202410291553"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.3.v202410301420"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Filter"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 250"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
